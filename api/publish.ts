@@ -1,3 +1,4 @@
+// v2: trigger fresh deploy
 export default function handler(req, res) {
   res.status(200).json({
     ok: true,
