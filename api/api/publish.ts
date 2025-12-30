@@ -1,11 +1,8 @@
-export default async function handler(req, res) {
-  if (req.method !== "POST") {
-    return res.status(405).send("Only POST requests are allowed");
-  }
-
+export default function handler(req, res) {
   res.status(200).json({
     ok: true,
-    message: "Vercel API 已正常工作",
-    body: req.body
+    message: "Vercel API 已成功响应",
+    method: req.method
   });
 }
+
