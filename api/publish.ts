@@ -1,5 +1,4 @@
-// v4: final config ready
-// v2: trigger fresh deploy
+// v5: enforce node runtime with full config
 export default function handler(req, res) {
   res.status(200).json({
     ok: true,
