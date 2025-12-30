@@ -1,3 +1,4 @@
+// v4: final config ready
 // v2: trigger fresh deploy
 export default function handler(req, res) {
   res.status(200).json({
